@@ -25,7 +25,7 @@
     </dependency>
   </dependencies>
 </project>
-<distributionManagement>
+  <distributionManagement>
   <repository>
     <uniqueVersion>false</uniqueVersion>
     <id>corp1</id>
@@ -40,5 +40,5 @@
     <url>sftp://propellers.net/maven</url>
     <layout>legacy</layout>
   </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
   
