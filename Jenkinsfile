@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'dev', url: 'https://github.com/devopsgsvc/core-app.git'
+                git branch: 'dev', url: 'https://github.com/devopsjan22kash/newrepomaven.git'
                 sh "mvn -Dmaven.test.failure.ignore=true -s settings.xml clean deploy"
             }
 
